@@ -2,20 +2,25 @@ import React, { useState } from "react";
 import { createGlobalStyle } from "styled-components";
 import LodingPage from "./LodingPage";
 import reset from "styled-reset";
+import InitialLoginPage from "./InitialLoginPage";
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
+
+  a {
+    text-decoration: none;
+  }
 `;
 
 const HomePage = () => {
   const [isLoding, setIsLoding] = useState(false);
   setTimeout(() => {
     setIsLoding(true);
-  }, 1000);
+  }, 300);
   return (
     <>
       <GlobalStyle />
-      {!isLoding ? <LodingPage /> : <div>12345</div>}
+      {!isLoding ? <LodingPage /> : <InitialLoginPage />}
     </>
   );
 };
