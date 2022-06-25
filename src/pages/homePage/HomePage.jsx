@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import LodingPage from "./LodingPage";
-import InitialLoginPage from "./InitialLoginPage";
+import LodingPage from "../lodingPage/LodingPage";
+import InitialLoginPage from "../loginPage/InitialLoginPage";
 
 const HomePage = () => {
   const [isLoding, setIsLoding] = useState(false);

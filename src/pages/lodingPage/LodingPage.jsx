@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import fullLogo from "../assets/logo/full-logo.svg";
+import fullLogo from "../../assets/logo/full-logo.svg";
 
 const LogoWrapper = styled.div`
   position: relative;

@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import logo from "../assets/logo/symbol-logo-white.svg";
-import emailIcon from "../assets/icon-email.svg";
-import signupIcon from "../assets/icon-signup.svg";
+import logo from "../../assets/logo/symbol-logo-white.svg";
+import emailIcon from "../../assets/icon-email.svg";
+import signupIcon from "../../assets/icon-signup.svg";
 import { Link } from "react-router-dom";
 
 const Wrapper = styled.div`

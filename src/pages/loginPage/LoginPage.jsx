@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import InputBox from "../components/input/InputBox";
+import InputBox from "../../components/input/InputBox";
 
 const Wrapper = styled.section`
   padding: 30px 34px 0;
@@ -66,7 +66,7 @@ export default function Login() {
         />
         <Button>로그인</Button>
       </form>
-      <SignUpLink href="#">이메일로 회원가입</SignUpLink>
+      <SignUpLink to="/signup">이메일로 회원가입</SignUpLink>
     </Wrapper>
   );
 }
